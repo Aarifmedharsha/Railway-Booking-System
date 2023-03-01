@@ -1,7 +1,7 @@
 import java.lang.reflect.Array;
 import java.util.*;
 
-public class railway {
+public class main {
     private static Scanner sc;
     private static final String train_name = "Aarif's Railway -- Coimbatore to Chennai Express";
     private static final String train_number = "ABC1234LJK";
@@ -484,7 +484,7 @@ public class railway {
     }
 }
 
-class Users extends railway {
+class Users extends main {
     int userr_id;
     String userr_name, userr_password;
 
@@ -495,7 +495,7 @@ class Users extends railway {
     }
 }
 
-class Wait extends railway {
+class Wait extends main {
     int userr_id;
     int dep_index, arr_index, ticket_no;
 
